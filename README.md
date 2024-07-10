@@ -14,6 +14,10 @@ You can see a live demo of the project [here](https://expense-tracker-ten-dun.ve
 - Delete Transactions: Users can delete any transaction from the list.
 - Income and Expense Summary: Displays the total income and total expenses.
 
+
+## Tech Stack
+ - React.js
+
 ## Installation
 
 1. Clone the repository:
@@ -35,6 +39,3 @@ You can see a live demo of the project [here](https://expense-tracker-ten-dun.ve
     ```sh
     npm run dev
     ```
-
-## Tech Stack
- - React.js
