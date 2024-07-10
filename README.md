@@ -2,7 +2,7 @@
 The Expense Tracker is a React application that allows users to track their income and expenses. Users can add, view, and delete transactions to manage their financial activities.
 
 <span style="color:red">
-This project is a clone from my previous GitHub repository <a href="https://github.com/PharadolBrown/expense-tracker-react" traget="_blank">the repository</a>
+## This project is a clone from my previous GitHub repository. <a href="https://github.com/PharadolBrown/expense-tracker-react" traget="_blank">the repository</a>
 </span>
 
 ## Demo
