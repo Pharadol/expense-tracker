@@ -5,7 +5,7 @@ The Expense Tracker is a React application that allows users to track their inco
 ## This project is a clone from my previous GitHub repository. <a href="https://github.com/PharadolBrown/expense-tracker-react" traget="_blank">the repository</a>
 </span>
 
-$\color{red}{\textsf{This project is a clone from my previous GitHub repository. <a href="https://github.com/PharadolBrown/expense-tracker-react" traget="_blank">the repository</a>}}$
+$\color{red}{\textsf{This project is a clone from my previous GitHub repository.}}$
 
 ## Demo
 You can see a live demo of the project [here](https://expense-tracker-ten-dun.vercel.app/).
