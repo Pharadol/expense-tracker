@@ -1,7 +1,9 @@
 # Expense Tracker
 The Expense Tracker is a React application that allows users to track their income and expenses. Users can add, view, and delete transactions to manage their financial activities.
 
-- ![#f03c15](https://placehold.co/15x15/f03c15/f03c15.png) `#f03c15`
+```diff
+- This project is a clone from my previous GitHub repository [myPrevGitHub](https://github.com/PharadolBrown/expense-tracker-react)
+```
 
 ## Demo
 You can see a live demo of the project [here](https://expense-tracker-ten-dun.vercel.app/).
