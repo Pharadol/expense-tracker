@@ -1,0 +1,10 @@
+li{
+    position: relative;
+    transition: all 0.3s ease;
+}
+.expense span{
+    color: rgb(253, 30, 0);
+}
+.income span{
+    color: rgb(23, 185, 134);
+}

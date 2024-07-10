@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: rgb(63,63,63);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+section{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto;
+    width: fit-content;
+}
+
+.con-show-hide{
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
+}
+.show-hide{
+    width: 70px;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    background-color: rgb(66, 202, 145);
+    padding: 0 3px 0 7px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.changeColor{
+    background-color: rgb(20, 20, 20);
+}
+.show-hide .ball{
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: all 0.7s;
+}
+.show{
+    transition: all 0.7s;
+}
+
+.show-hide .hide{
+    display: none;
+}
+
+.toHide{
+    transform: translateX(20px);
+    opacity: 0.6;
+}
+
+.ball2{
+    transform: translateX(-47px);
+}
+.horizontal-menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow:hidden;
+    background-color: rgb(94, 93, 93);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    padding: 5px 0;
+    width: 400px;
+}
+.horizontal-menu li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: fit-content;
+    transition: all 0.4s;
+}
+.horizontal-menu li:hover{
+    transform: translateY(-2px);
+    opacity: 0.5;
+}
+.horizontal-menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.horizontal-menu li:first-child{
+    width: 199px;
+    border-right: 1px solid rgb(182, 179, 179);
+}
+.horizontal-menu li:last-child {
+    width: 199px;
+}
+

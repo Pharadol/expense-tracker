@@ -1,0 +1,44 @@
+form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    color: #fff;
+    margin-top: 15px;
+}
+.form-control{
+    align-items: center;
+    height: fit-content;
+    color: rgb(6, 210, 146);
+}
+.form-control input{
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+}
+.form-control input:focus{
+    outline: none;
+}
+.form-control:first-child{
+    margin-bottom: 10px;
+}
+.form-control:last-child {
+    margin-bottom: 10px;
+}
+
+button[type="submit"]{
+    border-radius: 8px;
+    cursor: pointer;
+    display: block;
+    margin: 15px 0;
+    padding: 10px 10px;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.4s;
+    background-color: rgb(57, 156, 123);
+} 
+button[type="submit"]:hover{
+    background-color: rgb(6, 210, 146);
+}
